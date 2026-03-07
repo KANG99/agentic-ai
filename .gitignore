@@ -1,1 +1,8 @@
 .vscode/
+modelfile-Qwen/
+.DS_Store
+__pycache__/
+env
+.env.local
+*.key
+secrets.txt

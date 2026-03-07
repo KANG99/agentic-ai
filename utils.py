@@ -32,7 +32,7 @@ zai_api_key = os.getenv("ZHIPU_API_KEY")
 zai_client = ZhipuAiClient(api_key=zai_api_key)
 
 # Email API configuration
-BASE_URL = os.getenv("M3_EMAIL_SERVER_API_URL", 'http://localhost:5001')
+BASE_URL = os.getenv("M3_EMAIL_SERVER_API_URL",'http://localhost:5001') 
 session = requests.Session()
 session.headers.update({"User-Agent": "LF-ADP-EmailClient/1.0"}) 
 
